@@ -1,0 +1,31 @@
+# Core Dependencies
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+schedule==1.2.0
+colored==2.1.0  # Added back, assuming you intend to use it for text coloring
+
+# Database
+sqlalchemy==2.0.23
+# sqlite3 is a built-in Python module and does not need to be installed via pip.
+
+# Caching (Optional)
+redis==5.0.1
+
+# Logging and Monitoring
+structlog==23.2.0
+
+# Development Dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Deployment
+gunicorn==21.2.0
+uvicorn==0.24.0
+
+# Utilities
+requests==2.31.0
+aiohttp==3.9.1
+python-dateutil==2.8.2
