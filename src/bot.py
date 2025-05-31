@@ -26,9 +26,9 @@ class TelegramAutoBot:
 
         # Bot configuration
         self.config = {
-            "auto_post_enabled": False,
-            "reply_guy_enabled": False,
-            "away_message_enabled": False,
+            "auto_post_enabled": True,
+            "reply_guy_enabled": True,
+            "away_message_enabled": True,
             "post_interval_hours": 2,
             "reply_probability": 0.3,  # 30% chance to reply
         }
@@ -87,7 +87,7 @@ class TelegramAutoBot:
             return
 
         welcome_msg = """
-🤖 **Telegram Auto Bot is Ready!**
+🤖 **TelgBot is Ready!**
 
 Available commands:
 • `/config` - View current settings
